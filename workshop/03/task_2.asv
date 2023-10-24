@@ -1,0 +1,20 @@
+x_image = imread('x.png');
+x_image = rgb2gray(x_image);
+
+% a)
+
+% Original size
+m = size(x_image, 2); % Width
+n = size(x_image, 1); % Height
+
+% New size
+p = 1000; % Width
+q = 1000; % Height
+
+% Scaling factors
+s1 = p/m; % Width
+s2 = q/n; % Height
+
+x_
+for i = 1:p
+    for j = 1:q

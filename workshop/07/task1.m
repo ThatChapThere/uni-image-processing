@@ -1,4 +1,7 @@
-broken_text = imread('broken-text.tif');
+% Octave only
+pkg load image
+
+broken_text  = imread('broken-text.tif');
 coins = imread('coins.gif');
 noisy_fingerprint = imread('noisy-fingerprint.tif');
 shapes = imread('shapes.tif');
